@@ -17,13 +17,14 @@ const rl = readline.createInterface({
  * git commands
  * 1 git status
  * 2 git add .
- * 3 git commit -m 'message'
+ * 3 git status
+ * 4 git commit -m 'message'
  * git push
  */
 rl.question('give me a number ...\n', (aj) => {
   let num = Number.parseInt(aj);
-if (num <100) console.log('great')
-if (num >100) console.log('awesome')
+if (num <100) console.log('great!')
+if (num >100) console.log('awesome!')
   /*<100 = awesome >100 = great */
 
   rl.close();

@@ -1,1 +1,1 @@
-# lesson1
+# lesson1 how to run this program: type node .

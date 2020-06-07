@@ -14,7 +14,10 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Say something to me ...\n', (aj) => {
-  console.log('Did you say? :', aj);
+rl.question('give me a number ...\n', (aj) => {
+if aj <100 console.log('great')
+if aj >100 console.log('awesome')
+  /*<100 = awesome >100 = great */
+
   rl.close();
 });

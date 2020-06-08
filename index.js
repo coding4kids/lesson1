@@ -19,13 +19,24 @@ const rl = readline.createInterface({
  * 2 git add .
  * 3 git status
  * 4 git commit -m 'message'
- * git push
+ * 5 git push
  */
+
+/* + add
+- subtract
+* multiplication
+/ division 
+*/
+
 rl.question('give me a number ...\n', (aj) => {
   let num = Number.parseInt(aj);
-if (num <100) console.log('great!')
-if (num >100) console.log('awesome!')
-  /*<100 = awesome >100 = great */
-
+let answer = num/2 
+let answer2 = num*2
+let answer3 = num+2
+let answer4 = num-2 
+console.log(`${num}/2 = ${answer}`);
+console.log(`${num}*2 = ${answer2}`)
+console.log(`${num}+2 = ${answer3}`)
+console.log(`${num}-2 = ${answer4}`)
   rl.close();
 });

@@ -30,13 +30,11 @@ const rl = readline.createInterface({
 
 rl.question('give me a number ...\n', (aj) => {
   let num = Number.parseInt(aj);
-let answer = num/2 
-let answer2 = num*2
-let answer3 = num+2
-let answer4 = num-2 
-console.log(`${num}/2 = ${answer}`);
-console.log(`${num}*2 = ${answer2}`)
-console.log(`${num}+2 = ${answer3}`)
-console.log(`${num}-2 = ${answer4}`)
+ 
+console.log(`${num}/2 = ${num/2} 
+${num}*2 = ${num*2} 
+${num}+2 = ${num+2} 
+${num}-2 = ${num-2}`);
+
   rl.close();
 });
